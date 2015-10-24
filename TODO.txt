@@ -1,0 +1,2 @@
+- Add bash script to download and copy solarize to ~/.vim/colors
+- Add bash script to download pathogen
