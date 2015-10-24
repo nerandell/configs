@@ -66,5 +66,7 @@ nnoremap ; :
 
 inoremap jj <ESC>
 
-set background=dark
-colorscheme solarized
+if has('gui_running')
+    set background=dark
+    colorscheme solarized
+endif
