@@ -64,7 +64,7 @@ vnoremap <F1> <ESC>
 
 nnoremap ; :
 
-au FocusLost * :wa
-
 inoremap jj <ESC>
 
+set background=dark
+colorscheme solarized
