@@ -26,7 +26,6 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
-set undofile
 
 let mapleader = ","
 
@@ -67,6 +66,6 @@ nnoremap ; :
 inoremap jj <ESC>
 
 if has('gui_running')
-    set background=dark
     colorscheme solarized
+    set undofile
 endif
