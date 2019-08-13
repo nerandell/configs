@@ -69,3 +69,5 @@ if has('gui_running')
     colorscheme solarized
     set undofile
 endif
+
+syntax on
